@@ -1,0 +1,93 @@
+[
+  {
+    "filename": "12257+12806+12308血液RNA实验操作SOP.docx",
+    "suffix": ".docx",
+    "title": "12257+12806+12308血液RNA实验操作SOP",
+    "content_preview": "HB240701                                                  \n血液总RNA建库操作SOP（去除rRNA，去除珠蛋白mRNA）\n自备材料\n1.接头：Hieff NGS® RNA 384 CDI Primer for Illumina（YEASEN Cat#12414）\n2. rRNA 去除试剂盒：Hieff NGS MaxUp Human rRNA Depletion Kit(rRNA & ITS/ETS) (Yeasen Cat#12257) \n3. 珠蛋白mRNA去除试剂盒：Globin mRNA Depletion Probe(Human)\n4. RNA建库试剂盒：Hieff NGS® Ultima Dual-mode RNA Library Prep Kit 双模式RNA建库试剂盒(兼容Illumina和MGI)\n5. RNA 纯化磁珠： Hieff NGS® RNA Cleaner (Yeasen Cat#12602)或其他等效产品。\n6. DNA 纯化磁珠：Hieff NGS® DNA Selection Beads (Yeasen Cat#12601)或 AMPure® XP Beads (A63880)或其他等效产品。\n7.文库质检：Agilent 2100 Bioanalyzer DNA 1000 Chip/ High Sensitivity Chip 或其他等效产品；文库定量试剂。\n8.其他材料：无水乙醇、无菌超纯水、低吸附枪头、PCR 管、磁力架、PCR 仪等。\nrRNA去除\n1. 探针杂交\n1.1 将探针和杂交Buffer从-20°C 取出，解冻后颠倒混匀，置于冰上备用。\n1.2 准备RNA样品：根据投入量和样品浓度，计算RNA取样体积，用NucleasefreeH2O稀释至10μL。\n1.3 按照表1于200μLPCR管中配制rRNA去除反应体系。\n表1 rRNA探针杂交反应体系\n1.4 使用移液器轻轻吹打混匀，瞬离将反应液离心至管底。\n1.5 将上述 PCR 管置于PCR仪中，按照表2所示反应程序，进行探针杂交反应\n2. RNase H 消化\n2.1 将RNase H消化试剂从-20°C取出，解冻后颠倒混匀，置于冰上备用。按照表 3 所示，配制RNaseH消化反应体系。\n注：RNase",
+    "total_chars": 6540
+  },
+  {
+    "filename": "12597ES-CUT&Tag-qPCR操作流程.VerCN20240426.pdf",
+    "suffix": ".pdf",
+    "title": "12597ES-CUT&Tag-qPCR操作流程.VerCN20240426",
+    "content_preview": "CUT&Tag-qPCR实验操作步骤\n产品使用说明书\nVer.CN2024042612597ES\n使用说明\nCUT&Tag-qPCR可以不进行建库步骤直接纯化DNA后做CUT&Tag-qPCR，也可以建库步骤后，再进行\nCUT&Tag-qPCR步骤，两种步骤都可行，实验结果都具有参考意义。\n方法一：不建库，直接qPCR检测\n1.1蛋白酶K消化和基因组DNA回收\n1.向转座酶激活后的样品中加入3.3μL15×TerminateSolution，1.7μL30×ProteinaseK和适量的DNASpike-in\nMix。充分涡旋混匀，混匀后瞬离，将样品置于PCR仪，55℃消化2h(热盖不低于70℃)或者37ºC过夜（55℃消化2\nh后，若时间较晚，可直接室温放置过夜）。\n【注】：1.DNASpike-inMix主要用于不同处理条件或者细胞状态下的测序数据Normalization和定量分析，为非必需加入的组分。客户可根据\n实验需要判断是否加入DNASpike-inMix。本试剂盒中提供的DNASpike-in浓度为5ng/μL，推荐添加量为5pg/10万，根据实际细胞投入量将\nDNASpike-in梯度稀释后添加，也可根据靶蛋白的结合DNA能力和丰度自行调整（DNASpike-inMix需稀释后使用）。\n2.如果样本较多，可将15×TerminateSolution，1.7μL30×ProteinaseK及DNAspike-inMix配置预混液，预混液应\n该在配置完5min内使用，不宜放置过久。\n2.短暂离心（<100×g）收集反应液，将8联管置于磁力架上静置5min，取50μL上清。\n3.加入70μL（1.4x）室温下平衡的DNAExtractBeads，涡旋混匀，室温静置孵育5min。\n4.短暂离心（<100×g）收集反应液，将8联管置于磁力架上静置3~5min，待磁珠完全贴壁后吸净管内溶液。\n5.保持8联管始终处于磁力架上，加入200μL80％乙醇，避免直接冲刷磁珠，静置30-60sec，吸净管内溶液。\n6.保持8联管始终处于磁力架上，再次加入200μL80％乙醇，静置30~60sec，吸净管内溶液。\n7.保持8联管始终处于磁力架上，开盖空气干燥至磁珠刚刚出现龟裂（不超过3min）。\n【注】:1.移除上清后，可以短暂离心再置于磁力架上，使用10μL移液器将残留液",
+    "total_chars": 3044
+  },
+  {
+    "filename": "12597ES-甲醛交联的CUT&Tag操作流程.VerCN20240426.pdf",
+    "suffix": ".pdf",
+    "title": "12597ES-甲醛交联的CUT&Tag操作流程.VerCN20240426",
+    "content_preview": "CUT&Tag甲醛交联实验操作步骤\n产品使用说明书\nVer.CN2024042612597ES\n使用说明\n一、实验前准备\n自备材料\n1.抗体：靶蛋白的一抗和相对应的二抗（本试剂盒提供抗兔的二抗，若需要抗鼠二抗，推荐使用Yeasencat#34851ES或\n其他等效产品）。\n蛋白酶抑制剂:推荐使用InStab™ProteaseCocktail,EDTA-free,mini,tablet-form（Yeasencat#20123ES）或其他等效产品。\n2.文库质检：Agilent2100BioanalyzerDNA1000Chip/HighSensitivityChip或其他等效产品、文库定量试剂。\n3.其他材料：甲醛、甘氨酸、无水乙醇、无菌超纯水、低吸附枪头、PCR管、磁力架、PCR仪等。\n4.HieffNGS®TagmentIndexKitforIllumina®（Cat#12416ES）或其他替代引物。\n二、细胞准备\n1.在室温条件下收集细胞并计数，死亡的细胞染色质松散，暴露出大量的裸DNA，转座酶复合物随机切割会造成比较强的\n噪音信号，建议样本细胞活性不低于80%(细胞活性可以用台盼蓝染色来鉴定)。\n2.贴壁较紧的细胞如Hela细胞等可用Accutase或者Trypsin部分消化获得。\n3.动/植物组织进行实验，建议提取组织细胞核，需要根据不同的组织类型摸索合适的提核条件。\n三、操作步骤\n3.1溶液配制（以下配置的体积为单个样本单次反应的用量，若有多个样本同时实验，需根据样本量修改配置体积，本试剂\n配置量已考虑了试剂损耗，多样本配置无需额外计算损耗。如果选择3.5-A步骤，试剂按照以下配方直接配置即可，如果选\n择3.5-B步骤，其中SecondaryAntibodyBuffer和Dig-300Buffer推荐现配现用。）\n1.提前10min取出10×BindingBuffer、10×WashBuffer、10×Dig-300Buffer、5%Digitonin，50×PBBuffer\n室温融化，混匀备用。\n2.BindingBuffer:210μL/样本，单样本配制：取30μL10×BindingBuffer，加入270μLddH2O，混匀。\n3.WashBuffer：1440μL/样本，单样本配制：取150μL10×WashBuffer，加入60μL25×蛋白",
+    "total_chars": 3684
+  },
+  {
+    "filename": "ATAC和CUT&Tag进阶手册：含生信代码-程伟.pdf",
+    "suffix": ".pdf",
+    "title": "ATAC和CUT&Tag进阶手册：含生信代码-程伟",
+    "content_preview": "ATAC和CUT&Tag进阶手册：含生信代码\n前言\n表观遗传学研究内容颇多，本书虽然大量篇幅介绍ATAC和CUT&Tag技术，\n但是甲基化研究也是表观遗传学研究的重点内容。后续有机会再单独更新甲基化\n相关内容。\n2022年9月，翌圣编写了第一版本《CUT&Tag进阶手册》，详细描述了\nCUT&Tag实验原理、实验躲坑要点以及后续结果可视化展示，同时也展示了当\n时最新的文献报道。该书广受好评，但是美中不足的是没有添加ATAC相关内容。\n本次更新，在原来CUT&Tag实验基础上，增加了ATAC内容以及更新了最新的\nATAC和CUT&Tag研究技术。\n本书主要介绍ATAC和CUT&Tag技术原理，湿实验堵点以及干实验中数据\n分析流程。本书内容由团队合作撰写，大多是经验总结，可能有些内容无法文献\n论证，若有不专业或者错误地方，也请批评指正。\n2025年9月\n责任编辑/校对/印刷：翌圣NGS团队\n责任设计：翌圣NGS团队\n版权所有，违者必究。未经本公司团队许可，数字图书不得使用。\n（如有印刷质量问题，请联系翌圣免费更换）\n目录\n第一章表观遗传学概述........................................................................................................5\n1.1甲基化研究...............................................................................................................5\n1.2组蛋白修饰...............................................................................................................6\n1.3染色质重塑..............................................................................................................6\n1.4非编码RNA调控.............................................",
+    "total_chars": 4238
+  },
+  {
+    "filename": "CUT&Tag实验操作指南画册.pdf",
+    "suffix": ".pdf",
+    "title": "CUT&Tag实验操作指南画册",
+    "content_preview": "CUT&T ag实验操作指南\n翌圣生物科技 （上海） 股份有限公司\n \n\nCUT&T ag技术介绍\nCUT&T ag可以做什么 ？\n新一代CHIP-Seq技术， 其技术核心为 Hyperactive pA-Tn5 Transposase， 该酶是将 Protein A （Protein A/G）  与经过工程学改造的超高活性 \nTn5 转座酶进行融合， 形成同时具备转座酶与 Protein A 活性的新型融合酶--ChiTag酶。 Protein A/G代替protein A， PAG-Tn5代替pA-Tn5.\nCUT&T ag怎么做 ？\n技术原理： 利用Con A磁珠捕获细胞并利用5% Digitonin对细胞膜进行穿孔， 通过结合一抗、 二抗和Protein A- Transposome来靶向切割目\n标蛋白结合的DNA序列， 再经过PCR完成二代测序文库的构建。 对于人源细胞的组蛋白修饰， 仅需3-5 M reads的数据即可得到高分辨率靶\n蛋白结合的基因组图谱。组蛋白修饰\n表观遗传的特征和生物学功能转录因子结合位点\n转录因子作用通路信息核小体定位图谱\nDNA， 转录因子， 组蛋白修饰酶和染色\n质重塑复合体之间的相互作用DNA甲基化\n基因表达情况★基因表达、 调控、 复制、 重组和修复 ， RNA 的转运、 翻译和调控★完美替代ChIP-Seq\n湿实验 干实验\n \n \n \n \n \n \n- 01 - \n \n \n \n \n \n \n  原始数据\n（Raw data）\n数据质控\n（QC）\n质控数据\n(Clean data)\n比对参考基因组\n（Mapping）\n检测结合位点\n（Peak Calling）\nKEGG/GO靶基因预测\n（Target gene prediction）\nRNA-Seq 关联分析\n(Binding and Expression)结合位点Motif分析\n（Motif analysis）结合位点信息分布\n（Peak&Singal Distribution）\n产品简介 \nHieﬀ NGS® A/G-Type In-Situ DNA Binding Proﬁling Library Prep Kit for Illumina®是针对Illumina®高通量测序平台专门研发的用于原位靶\n蛋白DNA结合图谱测序文库转座酶法构建试剂盒， 适用于100-1,000,",
+    "total_chars": 2061
+  },
+  {
+    "filename": "CUT&Tag数据分析与挖掘-从实验设计到数据分析，一站式打通你的任督二脉.pdf",
+    "suffix": ".pdf",
+    "title": "CUT&Tag数据分析与挖掘-从实验设计到数据分析，一站式打通你的任督二脉",
+    "content_preview": "蛋白 -DNA互作研究技术 --CUT&tag 专题讲座\n从实验操作到分析挖掘， “打通”CUT&Tag 任督二脉\n\n目录 Contents\n实验背景及原理\n实验流程及质控数据分析解析\n文献解析\n爱基简介\n01  实验背景及原理",
+    "total_chars": 114
+  },
+  {
+    "filename": "Cuttag数据分析结果报告demo-20230111(1).pdf",
+    "suffix": ".pdf",
+    "title": "Cuttag数据分析结果报告demo-20230111(1)",
+    "content_preview": "1 背景介绍\n2 实验流程\n2.1 上机测序\n3 生物信息分析流程\n4 项目基本信息\n5 数据质控统计\n6 比对分析\n7 比对结果统计\n8 酶切片段的长度分布\n9 Peak Calling\n10 IgG bigwiggle\n11 Peaks的长度分布\n12 基因附近信号分布图\n13 基因附近信号热图\n14 Peak 中心信号分布图\n15 Peak 中心信号热图\n16 Peak 序列 Motif 分析\n17 Motif 在 具体 Peak 位置的分析\n18 Peak 注释分析\n19 Peak 注释分析\n20 功能性区域 Peak 分布\n21 Peak 靶基因预测\n22 Peak邻近基因功能富集分析\n22.1 Peak邻近基因GO富集分析\n22.2 Peak邻近基因 Pathway 富集分析\n23 Peak邻近基因GO富集柱状图和气泡图\n24 Peak邻近基因Pathway富集柱状图和气\n泡图\n25 GO网络图分析\n26 Pathway网络图分析\n27 组间差异 Peak 分析\n28 差异 Peak 序列 Motif 分析\n29 Motif 在 具体差异 Peak 位置的分析\n30 差异 Peak 注释分析\n31 差异Peak邻近基因功能富集分析\n31.1 差异Peak邻近基因GO富集分析\n31.2 差异Peak邻近基因 Pathway 富集分\n析32 Peak邻近基因GO富集柱状图和气泡图\n33 Peak邻近基因Pathway富集柱状图和气\n泡图\n34 GO网络图分析\n35 Pathway网络图分析\n36 Cuttag  与 RNA-seq 联合分析\n37 Cuttag  与 RNA-seq 联合分析\n38 Overlap基因功能富集分析\n38.1 Overlap基因GO富集分析\n38.2 Overlap基因 Pathway 富集分析\n39 Overlap基因GO富集柱状图和气泡图\n40 Overlap基因Pathway富集柱状图和气\n泡图\n41 GO网络图分析\n42 Pathway网络图分析\n43 数据评估\n44 附录\n44.1 参考文献\n44.2 关于嘉因生物CUT&Tag 数据分析结果报告\n1 背景介绍\n染色质特征（比如组蛋白修饰的发生或者转录因子的结合）在基因表达调控中起关键作用。2019年四月份美国 Fred Hutchinson\n癌症研究中心的 Steve",
+    "total_chars": 6902
+  },
+  {
+    "filename": "冻存组织ATAC实验流程-Yeasen20240321.pdf",
+    "suffix": ".pdf",
+    "title": "冻存组织ATAC实验流程-Yeasen20240321",
+    "content_preview": "www.yeasen.com Page1of4Ver.CN20240321\n冻存组织ATAC操作步骤\n1.1样本处理\na.将冻存小鼠肝脏组织从-80℃取出放于培养皿中，用刀片切下绿豆粒大小（约30mg）\n组织，随后立即将培养皿放置冰上。\nb.组织大部分融化后，加入1mL预冷的PBS清洗小鼠肝脏组织，用移液器吸去PBS，\n共清洗3次。\nc.清洗完成的肝脏组织可以采用以下两种处理方式提取细胞核，客户可根据实际情况\n自行选择。\n方案一：\n将培养皿至于提取预冷的金属块上，在培养皿中，用刀片将组织切碎成颗粒状（芝麻大\n小），加入600μL预冷的LysisBuffer，冰上静置10min。随后用40μm细胞筛过滤切碎\n的组织至1.5mLEP管中，4℃，300g离心5min，去上清，用200μL预冷的PBS重悬\n细胞核沉淀。取18μL细胞核悬液，加入2μL0.4%台盼蓝溶液染色，显微镜下镜检，用\n血球计数板计算细胞核的浓度。(刀片切割：细胞核悬浮液体积200μL，细胞核浓度约750\n个/μL；细胞筛研磨：细胞核悬浮液体积1000μL，细胞核浓度约2000个/μL)。根据计数\n结果，取50000细胞核悬液，加1000μL预冷的PBS，4℃，300g离心3min去除上清，\n收集细胞核。\n方案二：\n取一个干净的50mL离心管，插入冰中，去掉管盖，将40μm细胞筛放在管口，用镊\n子将培养皿中清洗完成的组织放置于细胞筛中央处。取少量预冷的PBS（200μL左右，覆\n盖组织块即可）滴加到组织处，用注射器黑色的活塞头轻轻的研磨分散组织（研磨2圈后，\n观察组织分散情况，每研磨2圈加入500μL-1000μL预冷的PBS冲洗组织块，总计研磨\n4-6圈左右，此时，50mL离心管中溶液呈乳白色，细胞筛表面有一层组织覆盖）。将离心\n管中溶液转至1.5mLEP管中，4℃，300g离心5min，去上清，用600μL预冷的Lysis\nBuffer重悬细胞核沉淀，冰上静置5min。4℃，300g离心5min，去上清，用1000μL\n预冷的PBS重悬细胞核沉淀，随后用40μm细胞筛过滤重悬后的细胞核至1.5mLEP管\n中。\nd.取18μL细胞核悬液，加入2μL0.4%台盼蓝溶液染色，显微镜下镜检，用血球计\n数板计算细胞核的浓度。(刀片切割：细胞核悬浮液体积200μL，细胞核浓度约750个/μL；\n细胞筛研磨：细胞",
+    "total_chars": 2454
+  },
+  {
+    "filename": "冻存组织ATAC实验流程.docx",
+    "suffix": ".docx",
+    "title": "冻存组织ATAC实验流程",
+    "content_preview": "Ver.CN20250225\n冻存组织 ATAC 操作步骤\n一、样本处理\n将培养皿提前放置于冰上，将冻存小鼠肝脏组织从-80℃取出放于培养皿中，用刀片切下绿豆粒大小（约 30mg）组织，随后立即放置在培养皿中。\n组织大部分融化后，加入 1mL 预冷的 PBS 清洗小鼠肝脏组织，用移液器吸去 PBS，共清洗 1-3 次。\n清洗完成的肝脏组织可以采用以下两种处理方式提取细胞核，客户可根据实际情况自行选择。\n方案一：\n将培养皿至于提取预冷的金属块上，在培养皿中，加入适量PBS（打湿组织，方便切割即可，约50-100μL）。用刀片将组织切碎成泥状，随后用 40 μm 细胞筛过滤切碎的组织至 50mL 离心管中，过滤时可采取PBS冲洗培养皿上的多余细胞，加入滤网中过滤；过滤完成后，将50mL离心管中的液体转移到1.5mL的 EP 管中，4℃，2000rpm离心 5 min，去上清，用 500 μL 预冷的 PBS 重悬细胞沉淀。取 18 μL 细胞悬液，显微镜下镜检计数。根据计数结果，取适量细胞（约5-7万细胞/样本）进行之后的裂解反应。\n方案二：\n取适量组织和液氮加入研钵中，研磨成粉状后加入适量预冷的PBS离心后，加入适量PBS，混匀后取 18 μL 细胞悬液，加入 2 μL 0.4%台盼蓝溶液染色，显微镜下镜检观察细胞核和细胞的情况，若全是细胞核，则省略细胞裂解步骤，直接转座酶建库，若是细胞核和细胞的混合，按照之后正常的裂解流程裂解细胞提取细胞核后建库。\n处理好的细胞核立即进行 Tn5 转座法 DNA 建库，建库方案如下：\n二、 溶液配制（0.5 h）\n【注】：含有 Digitonin 的缓冲液不可长期保存，请根据实际样本数量现配现用，配制的 buffer 4℃放置。本操作中溶液配制量为单个样本单次实验所需的 buffer 用量，请根据实际样本数调整 buffer 配制量。\n1.提前 10 min 取出 Suspension Buffer、10 % Tween-20、10 % Nonidet P40 Substitute 和 1 % Digitonin、Reaction Buffer 室温解冻，混匀后瞬离。Terminate Solution 室温放置，确保使用前无沉淀，若有沉淀，37℃加热混匀。\n2.将离心机提前 4℃预冷。\n3.Lysis Buffer：于无菌 PCR",
+    "total_chars": 3614
+  },
+  {
+    "filename": "冻存细胞ATAC实验流程-Yeasen20240308.pdf",
+    "suffix": ".pdf",
+    "title": "冻存细胞ATAC实验流程-Yeasen20240308",
+    "content_preview": "www.yeasen.com Page1of4Ver.CN20240307\n冻存细胞ATAC操作步骤\n1.1、实验前准备\n(1)在开始细胞解冻前，将水浴锅设置为37℃；\n(2)准备约50mL温热（37℃预热）的RPMI-1640+10%FBS培养基；\n(3)离心机打开设置4℃，300g，5min；\n1.2冻存样本复苏实验步骤\n(1)从-80℃冰箱或液氮中取出冻存管，并立即于37℃水浴锅快速晃动解冻，直到冻存管内的\n试剂完全融化（整个过程在1-2min内完成）。\n(2)从水浴中取出冻存管，用酒精棉对冻存管口及外表面进行消毒；\n(3)将细胞样本连同冻存液一起转移至新的15mL离心管中，加入5mL预热的细胞完全培\n养基RPMI-1640+10%FBS，轻柔吹打将液体混合均匀；\n(4)室温300g，离心5min，弃上清（担心细胞被吸到可留5-10μL的上清）；\n(5)离心后弃去上清，根据细胞量加入150μL预冷的RPMI1640培养基重悬，取5μL细胞\n悬液加入15μL的AO/PI染色，细胞计数及细胞活性；\n(6)如细胞活率大于80%，有核率大于70%，背景干净可以直接进行下游实验。（若细胞活\n性较低，也可正常提核，但是后续ATAC实验结果可能出现重复率不高的情况，需根据实验\n室自己的项目情况来具体评估）\n1.3ATAC实验-细胞收集\n(1)在室温下收获细胞并计数，取实验所需数量的细胞(5万左右)于1.5mLEP管中，4℃\n2,300rpm(500×g)离心5min，吸净管内溶液。\n【注】：对于大小不同的细胞，请根据实际情况调整离心力。\n(2)每个样本加入50μL预冷的WashBuffer重悬细胞，4℃2,300rpm(500×g)低速\n离心5min，吸净管内溶液。\n(3)每个样本中加入50μLLysisBuffer，轻轻吹打重悬，冰上放置5min，4℃，2,300rpm\n(500×g)离心5min，去除上清。\n(4)直接进行后续的转座反应。\n1.4.ATAC实验-转座酶片段化（0.5h-1h）\n\nwww.yeasen.com Page2of4于无菌PCR管中配制表2所示反应体系，配制好后冰上放置。\n2.将配制好的TranspositionMix加入到处理好的细胞核中，使用移液器轻轻吹打5-8次\n混匀。\n【注】：吹打时尽量轻柔缓慢，不要产生气泡，否则会对细胞核造成损伤。也不",
+    "total_chars": 2278
+  },
+  {
+    "filename": "多组学技术汇总-刘洋.docx",
+    "suffix": ".docx",
+    "title": "多组学技术汇总-刘洋",
+    "content_preview": "图 基因组、转录组、蛋白组、代谢组之间关系的模式图（图片来源：Wikipedia）\n1.基因组学\n自从Avery、Alfred Hershey和Matha Chase等人在20世纪50年代的实验证实了DNA是遗传物质（对于大部分生物而言），接着沃森、克里克、富兰克林等人发现DNA的双螺旋结构之后，意味着对生物遗传物质解码的时代拉开了序幕，生物的主要遗传物质是DNA，细胞或生物体中一套完整的遗传物质的总和称为基因组。DNA测序(DNA sequencing)是指基因组上分析特定DNA片段的碱基序列，也就是腺嘌呤(A)、胸腺嘧啶(T)、胞嘧啶(C)与鸟嘌呤(G)的排列方式，DNA是由外显子(Exon）和内含子(Intron)组成。外显子只占基因组的1%左右，外显子序列编码体内所有蛋白的合成。而内含子不编码蛋白质的合成，但其可以影响基因和蛋白的表达的量。全基因组测序，即是对生物体整个基因组序列进行测序，可以获得完整的基因组信息，而除了全基因组以外的其他基因组测序，只需要检测部分基因的序列信息。如外显子测序，扩增子测序（16S/18S测序、ITS/ETS测序、功能基因组测序等）简化因组测序等。\n图 DNA的组成\n表 基因突变类型\n1.1 基因测序的发展历程\n1.1.1 一代测序\n一代测序，又称sanger桑格测序。将带荧光基团的2’,3’-双脱氧核苷酸(ddNTP)参入到含有DNA聚合酶、待测模板、引物、四种脱氧核糖三磷酸(dNTPs)的反应体系中，由于参入的ddNTP缺乏3’-羟基，因此不能与下一位核苷酸反应形成磷酸二酯键，DNA合成反应将终止，使正在延伸的寡聚核苷酸选择性的在A、T、C或G处终止。终止的核苷酸由相应的ddNTPs决定，通过电泳可分离出长度不同的片段，再对这些片段的末端碱基进行检测从而获得所测片段的碱基序列。\n技术流程：\n横轴是电泳时间，也可以看作碱基顺序，纵轴是荧光强度，沿着横轴，我们可以根据颜色判断哪种碱基，峰越高，越尖，与别的峰交锋越少，证明这个碱基准确性越好。\n1.1.2 二代测序\n二代测序(Next-generation sequencing，NGS) 高通量测序法：二代测序是先打断DNA，使其片段化，之后在DNA复制过程中通过先PCR多次扩增DNA，在测序阶段，DNA复制过程中，碱基携带的荧光标记，因而在扩增过程中可以通过捕捉荧光情况来确定碱基",
+    "total_chars": 12300
+  },
+  {
+    "filename": "环状RNA建库实验操作SOP.pdf",
+    "suffix": ".pdf",
+    "title": "环状RNA建库实验操作SOP",
+    "content_preview": "YeasenBiotechnology(Shanghai)Co.,Ltd.\nHotline:400-6111-883\nE-mail:order@yeasen.com\nQuickProtocol 第1⻚，共11⻚HB20250221\n环状RNA建库操作SOP（去除rRNA和线性RNA）\n自备材料\n1.接头：HieffNGS®RNA384CDIPrimerforIllumina（YEASENCat#12414）\n2.rRNA去除试剂盒：HieffNGSMaxUpHumanrRNADepletionKit(rRNA&ITS/ETS)(YeasenCat#12257)\n3.RNaseR(20U/μL)（带buffer）（YeasenCat#14606)\n4.RNA建库试剂盒：HieffNGS®μLtimaDual-modeRNALibraryPrepKit双模式RNA建库试剂盒(兼容Illumina和MGI)\n（YeasenCat#12308)\n5.RNA纯化磁珠：HieffNGS®RNACleaner(YeasenCat#12602)或其他等效产品。\n6.DNA纯化磁珠：HieffNGS®DNASelectionBeads(YeasenCat#12601)或AMPure®XPBeads(A63880)或其他等效产品。\n7.文库质检：Agilent2100BioanalyzerDNA1000Chip/HighSensitivityChip或其他等效产品；文库定量试剂。\n8.其他材料：无水乙醇、无菌超纯水、低吸附枪头、PCR管、磁力架、PCR仪等。\n实验简介：\n环状RNA(circularRNA，circRNA)是近年来发现的一类特殊的非编码RNA，大量存在于真核细胞胞质内，主要由\npre-mRNA通过可变剪切加工产生，具有很多重要的调控功能。circRNA可以作为竞争性内源RNA(competingendogenousRNA，\nceRNA)结合胞内miRNA，阻断miRNA对其靶基因的抑制作用。除此以外，circRNA也具有调控其它类型RNA、调节蛋白质\n活性等功能。circRNA在不同物种中具有保守性，而且存在组织表达差异，其环状结构对RNase不敏感，所以它比线性RNA\n更为稳定。越来越多的研究发现，circRNA在开发新型疾病诊断与治疗方法上具有巨大潜力且意义重大。\n",
+    "total_chars": 2968
+  },
+  {
+    "filename": "翌圣CUT&tag实验之植物样本细胞核分离操作流程.pdf",
+    "suffix": ".pdf",
+    "title": "翌圣CUT&tag实验之植物样本细胞核分离操作流程",
+    "content_preview": "Yeasen Biotechnology (Shanghai) Co., Ltd.  \nHotline: 400 -6111 -883 \nE-mail: order@yeasen.com  \n \n翌圣 CUT&tag 实验之植物样本细胞核分离操作流程  \n1、 用剪刀将样品剪成小碎片置于  5cm 塑料培养皿中，加入  NIB溶液（10 mM Tris pH 8.0, \n10 mM KCl, 0.5 mM spermidine ）（不能加太 多溶液，刚刚能浸湿样品即可 ），用刀片\n（老式刮胡刀的刀片 ）轻而快的切样品 （标准是样品能被刀片切成泥，同时培养皿没\n有切痕或切痕很少）直至样品看不见颗粒为止；  \n2、 将步骤中的溶液用枪头吸取后用  40 μm 滤器（建议尽量用能适配  EP 管的滤器，过大造\n成样品损失过大 ）过滤，步骤  1 中的培养皿 中有剩余样品可以吸取  NIB 溶液少量多次冲\n洗并将冲洗液用  40 μm 滤器过滤；注：此步骤可以先用  70 μm 滤器过滤后再用  40 μm \n滤器过滤；  \n3、 若能进行流式分选条件的进行此步骤，用  7AD 对样品进行染色后 （也可以用  DAPI  染色，  \n但是 DAPI 可能对样品的开放状态产生影响 ），流式分选细胞核，之后按照  CUT&Tag 试\n剂盒说明书操作即可；  \n4、 若无流式分选条件的，将步骤  2 中样品  4℃12000rpm  离心  5min，弃上清，若步骤  2 中\n样品有很多色素，用  1 ml YS1  重悬后， 4℃12000rpm  离心 5min，重复多次，直至无色\n素或色素颜色较弱；  \n5、 用 YSII 重选步骤  4 中沉淀；  \n6、 另取一个新的  1.5 ml EP 管，在  EP 管中加入  500 μl YSII； \n7、 将步骤  5 中重悬液沿着步骤  6 中 EP 管管壁缓缓加入使步骤  5 中悬液置于步骤  6 悬液上\n方，避免两步骤中溶液混合；  \n8 、4℃ 13000rpm 离 心45  min；  \n9、 弃上清，之后按照  CUT&Tag  试剂盒说明书操作即可  \n \nYS1 溶液配方  \n名称 终浓度  母液浓度  体积 \nsucrose  0.25 M  2.3 M  1.08 ml  \nTris-HCl（pH8.0）",
+    "total_chars": 1494
+  }
+]

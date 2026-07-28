@@ -1,0 +1,51 @@
+[
+  {
+    "filename": "qPCR引物设计需要跨内含子吗？.docx",
+    "suffix": ".docx",
+    "title": "qPCR引物设计需要跨内含子吗？",
+    "content_preview": "qPCR引物设计需要跨内含子吗？\n封面图\n正文\nqPCR引物设计需要跨内含子吗？先说结论：当我们在RNA提取的过程中利用DNase I 去除gDNA或者在逆转录的时候去除了gDNA后，只剩下了RNA，此时设计引物可不跨越内含子，几乎无影响；反之，如果我们在RNA提取的过程中未去除gDNA，则提出来的细胞/组织会有DNA残留，这时候引物不跨内含子设计的话，会将样本中DNA的部分扩增出来，造成mRNA转录水平表达结果虚高。\n那么，为什么跨内含子设计引物会避免扩增DNA呢？首先我们需要了解DNA和mRNA的结构，如下图所示,如果有DNA残留，那么跨越内含子设计引物的上游和下游的话，DNA会因为产物过长而无法扩增（qPCR酶的特性决定的，一般在500bp以内扩增）但mRNA则不会受到影响（因为无内含子）而正常扩增。\n图1 DNA转录成mRNA简图\n引物设计时避免基因组DNA扩增，首先确认目的基因的基因组结构，选择跨越较长的内含子。然后，在这个内含子两侧的外显子上分别设计上、下游引物。\nReal Time PCR反应时通常扩增的目的DNA片段长度都比较短，设置的条件也是适合短片段DNA的扩增，超过500 bp就很难扩增了（常见扩增100-300bp之间）。所以，当内含子足够长时，基因组DNA来源的扩增就不能发生。\n图2 跨内含子设计引物可导致基因组DNA扩增失败\n当内含子较短时，可将其中一条引物设计在外显子和外显子交界处，跨越内含子连接，这样，基因组DNA来源的扩增也不能发生。但是，此种方法不适合具有单个外显子的基因、或者不具有内含子的生物种以及基因组情报没被解析的生物种等。\n图3 内含子较短时的引物设计示意图\n附：引物设计网站\n需要输入序列设计： https://www.primer3plμs.com/ \n直接输入基因名称就可以设计：https://pga.mgh.harvard.",
+    "total_chars": 1308
+  },
+  {
+    "filename": "qPCR数据处理和作图.docx",
+    "suffix": ".docx",
+    "title": "qPCR数据处理和作图",
+    "content_preview": "qPCR数据处理和作图\n封面图\n图：实验组和对照组某基因富集倍数\n正文\n如何从qPCR的Ct值得到漂亮的qPCR图呢？之前的网络教程都看不懂？巧了，这篇帖子包教包会，非常容易理解哦！Follow me，let’s go！\nqPCR数据处理\n按照表格所示导出实验组和对照组的目的基因和内参（外参）基因的Ct值，然后分别计算ΔCt，ΔΔCt，以及2^-ΔΔct值，计算公式如下：\nΔCt=目的基因的Ct值一内参的Ct平均值\nΔΔCt=实验组ΔCt一对照组ΔCt的平均值\n倍数差异=2^-ΔΔct\n如果还是不清楚的话，请见表格计算详解：\n实验组平均值：\n实验组ΔCt值：\n实验组ΔΔCt值：\n实验组2^-ΔΔct：\n实验组差异倍数的平均值：\n实验组SD值，excel表格中公式，选择插入函数，输入STDEV函数，选择包含的数据范围，计算\n对照组的处理和实验组相同，但注意ΔΔCt值处理如下：\nGraphPad Prism作图\n当我们通过excel表格处理得到了差异倍数平均值，SD值以及复孔数，就可以作图啦！作图方法如下：\n首先我们打开GraphPad软件，选择Column以及Mean，SD，N，点击右下角create\n接着，输入我们计算好的差异倍数平均值，SD值以及复孔数，点击左下角的小图标(注：不同的graphpad版本可能选择图表的位置有差异，本图以GraphPad Prism 9.5.1为例)\n选择合适的图表呈现：\n之后，双击treated或者control的柱状图区域，可更改颜色等：\n最后，别忘了计算统计学差异哦！点击analyze，t test ，分析P值是否具有统计学差异：\n两组比较，具有明显统计学差异，在图中标注好P就完成了（GraphPad 9以上可以自动标注，见下图）\n点击Draw：\n图片完成！如下图所示：\n怎么样？你“学废”了吗？快去试试吧！",
+    "total_chars": 785
+  },
+  {
+    "filename": "RNA提取+逆转录+qPCR实验方案.pdf",
+    "suffix": ".pdf",
+    "title": "RNA提取+逆转录+qPCR实验方案",
+    "content_preview": "细胞 RNA提取  \n实验材料：  \n细胞（实验组，对照组）  \n试剂：无水乙醇 ，19221 RNA提取试剂盒  \n耗材： 1.5 mL RNase -free离心管，1000μL枪头， 10μL枪头  \n仪器：台式离心机、水浴锅或金属浴 ，Nanodrop 仪 \n实验方案：  \n一、样本预处理  \n针对贴壁细胞：不需消化，直接裂解；或离心收集细胞后， 加入 350 μ L裂解液 LB (< \n5×106个细胞 )，用移液器反复吹打混匀 (直到看不到细胞团为止 )。 \n【注】 ： (5-10)×106个细胞加入 600 μ L裂解液 LB \n首次使用前，在结合液 BD*（19221 -E）瓶中加入标签指定量的无水乙醇（ 5 T/50 T分别加\n入2.4 mL/24 mL 无水乙醇） ，充分混匀后使用，并做好标记。  \n首次使用前，在漂洗液 W*（19221 -F）瓶中加入标签指定量的无水乙醇（ 5 T/50 T分别加\n入5.2 mL/52 mL 无水乙醇） ，充分混匀后使用，并做好标记。  \n二、 RNA提取  \n1. 将处理好的匀浆液加到 DNA清除 /RNA吸附通用柱上 (柱子放在 2 mL收集管内 )，\n13,000 rpm 离心 1 min，收集含有 RNA的滤液。  \n2. 精确估算滤液体积中 加入等体积的结合液 BD*(请先确认已加入无水乙醇 !)，立即轻柔吹\n打混匀。  \n3. 将上述混合液全部加入新的 DNA清除 /RNA吸附通用柱中， 13,000 rpm 离心 30 s，弃掉\n滤液。  \n4. 加入 700 μ L去蛋白液，室温 30 s，13,000 rpm 离心 30 s，弃掉滤液，将 DNA清除 /RNA\n吸附通用柱重新放回 2 mL收集管中。  \n5. 加入 500 µL漂洗液 W*(请先确认已加入无水乙醇 !)，13,000 rpm 离心 3",
+    "total_chars": 2330
+  },
+  {
+    "filename": "RNA提取+逆转录+qPCR超详细实验方案.docx",
+    "suffix": ".docx",
+    "title": "RNA提取+逆转录+qPCR超详细实验方案",
+    "content_preview": "细胞RNA提取\n实验材料：\n细胞（实验组，对照组）\n试剂：无水乙醇，19221RNA提取试剂盒\n耗材：1.5 mL RNase-free离心管，1000μL枪头，10μL枪头\n仪器：台式离心机、水浴锅或金属浴，Nanodrop仪\n实验方案：\n一、样本预处理\n针对贴壁细胞：不需消化，直接裂解；或离心收集细胞后，加入350 μL裂解液LB (< 5×106个细胞)，用移液器反复吹打混匀(直到看不到细胞团为止)。\n【注】：(5-10)×106个细胞加入600 μL裂解液LB\n首次使用前，在结合液BD*（19221-E）瓶中加入标签指定量的无水乙醇（5 T/50 T分别加入2.4 mL/24 mL无水乙醇），充分混匀后使用，并做好标记。\n首次使用前，在漂洗液W*（19221-F）瓶中加入标签指定量的无水乙醇（5 T/50 T分别加入5.2 mL/52 mL无水乙醇），充分混匀后使用，并做好标记。\n二、RNA提取\n1. 将处理好的匀浆液加到DNA清除/RNA吸附通用柱上(柱子放在2 mL收集管内)，13,000 rpm离心1 min，收集含有RNA的滤液。\n2. 精确估算滤液体积中加入等体积的结合液BD*(请先确认已加入无水乙醇!)，立即轻柔吹打混匀。\n3. 将上述混合液全部加入新的DNA清除/RNA吸附通用柱中，13,000 rpm离心30 s，弃掉滤液。\n4. 加入700 μL去蛋白液，室温30 s，13,000 rpm离心30 s，弃掉滤液，将DNA清除/RNA吸附通用柱重新放回2 mL收集管中。\n5. 加入500 µL漂洗液W*(请先确认已加入无水乙醇!)，13,000 rpm离心30 s，弃掉滤液。\n6. 重复一遍步骤5，将DNA清除/RNA吸附通用柱重新放回2 mL收集管内。\n7. 空柱13,000 rpm离心2 min，除去残留漂洗液W*。\n8. 将DNA清除/RNA吸",
+    "total_chars": 4215
+  },
+  {
+    "filename": "分子克隆操作手册-诺唯赞.pdf",
+    "suffix": ".pdf",
+    "title": "分子克隆操作手册-诺唯赞",
+    "content_preview": "www.vazyme.com\n分子克隆实验解决方案\n- 操作手册 -\n\nInno\nVa\ntion in En\nzyme\n Technology\n南京诺唯赞生物科技股份有限公司\n(Vazyme Biotech Co.,Ltd)\n致力于酶和抗体的研发和\n生产，产品涵盖体外诊断、高通量测序和生命科学研究等领域。公司坐落于六朝古都南\n京，背靠风景秀丽的栖霞山，依托国家级南京经济技术开发区的区域辐射力，以先进的\n研发能力和领先的技术力量，书写全新的民族生物科技格局。\nInnoVa tion in enzyme technology 南京诺唯赞生物科技股份有限公司6\n7\n12\n14\n15\n17\n19\n23\n26\n分子克隆实验解决方案（操作手册）\n第一章： 分子克隆实验概述\n一、 分子克隆实验方法\n二、 分子克隆实验方法的选择\n第二章： 分子克隆实验的流程及注意事项\n一、 \n酶切连接\n二、 TOPO 克隆\n三、 同源重组\n四、 \n定点突变\n第三章： 测序结果解读\n目  录",
+    "total_chars": 435
+  },
+  {
+    "filename": "实时荧光定量PCR实验操作手册 -诺唯赞.pdf",
+    "suffix": ".pdf",
+    "title": "实时荧光定量PCR实验操作手册 -诺唯赞",
+    "content_preview": "www.vazyme.com\n南京诺唯赞生物科技有限公司\nNanjing Vazyme Biotech Co.,Ltd.\n实时荧光定量\nPCR\n实验解决方案\n- 操作手册 -\n\nInno\nVa\ntion in En\nzyme\n Technology\n南京诺唯赞生物科技有限公司\n(Vazyme Biotech Co.,Ltd)\n致力于酶和抗体的研发和生产，\n产品涵盖体外诊断、高通量测序和生命科学研究等领域。公司坐落于六朝古都南京，背\n靠风景秀丽的栖霞山，依托国家级南京经济技术开发区的区域辐射力，以先进的研发能\n力和领先的技术力量，书写全新的民族生物科技格局。",
+    "total_chars": 281
+  },
+  {
+    "filename": "荧光定量标准操作指南-ABI.pdf",
+    "suffix": ".pdf",
+    "title": "荧光定量标准操作指南-ABI",
+    "content_preview": "Introduction to Gene Expression\nGetting Started Guide\nFor Research Use Only.  Not intended for any animal or human therapeutic or diagnostic use.\nInformation in this document is su bject to change without notice.\nAPPLIED BIOSYSTEMS DISCLAIMS ALL WARRANTIES WITH RESPECT TO THIS  DOCUMENT, EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO \nTHOSE OF MERCHANTABILITY OR FITNESS FOR A PA RTICULAR PURPOSE. TO THE FULLEST EXTENT AL LOWED BY LAW, IN NO EVENT SHALL APPLIED \nBIOSYSTEMS BE LIABLE, WHETHER IN  CONTRACT, TORT, WARRANTY, OR UN DER ANY STATUTE OR ON ANY OTHER BASIS FOR SPECIAL, INCIDENTAL, \nINDIRECT, PUNITIVE, MULTIPLE OR CONSEQUENTIAL DAMAGES IN CONNEC TION WITH OR ARISING FROM TH IS DOCUMENT, INCLUDING BUT NOT \nLIMITED TO THE USE THEREOF, WHETHER OR NOT FORESEEABLE AND WHETHER OR NOT A",
+    "total_chars": 4914
+  }
+]
