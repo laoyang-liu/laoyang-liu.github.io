@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://laoyang-academic-space-900kd33i.edgeone.cool/sitemap.xml
+Sitemap: https://laoyang-liu.github.io/sitemap.xml
 
 # Bing
 User-agent: bingbot
