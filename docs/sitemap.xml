@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://laoyang-academic-space-900kd33i.edgeone.cool/</loc>
+    <loc>https://laoyang-liu.github.io/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://laoyang-academic-space-900kd33i.edgeone.cool/portfolio</loc>
+    <loc>https://laoyang-liu.github.io/portfolio</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://laoyang-academic-space-900kd33i.edgeone.cool/portfolio/cell</loc>
+    <loc>https://laoyang-liu.github.io/portfolio/cell</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://laoyang-academic-space-900kd33i.edgeone.cool/portfolio/molecular</loc>
+    <loc>https://laoyang-liu.github.io/portfolio/molecular</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://laoyang-academic-space-900kd33i.edgeone.cool/portfolio/ngs</loc>
+    <loc>https://laoyang-liu.github.io/portfolio/ngs</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://laoyang-academic-space-900kd33i.edgeone.cool/portfolio/protein</loc>
+    <loc>https://laoyang-liu.github.io/portfolio/protein</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://laoyang-academic-space-900kd33i.edgeone.cool/portfolio/ivd</loc>
+    <loc>https://laoyang-liu.github.io/portfolio/ivd</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://laoyang-academic-space-900kd33i.edgeone.cool/portfolio/pharma</loc>
+    <loc>https://laoyang-liu.github.io/portfolio/pharma</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://laoyang-academic-space-900kd33i.edgeone.cool/videos</loc>
+    <loc>https://laoyang-liu.github.io/videos</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
